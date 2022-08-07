@@ -21,6 +21,32 @@
         <ul>
           <li>The head element contains information about the webpage.</li>
           <li>The body element represents the visible content shown to the user.</li>
+          <li> The DOCTYPE html declaration is letting the browser know to expect HTML on the page.</li>
+          <li> An HTML attribute defines additional information about an element. HTML attributes are always defined in the beginning element, never the closing element.</li>
+          <li> Metadata is data about our webpage that the browser uses to effectively serve our webpage to users. Metadata is typically not seen by users, but it contains important information about accessibility, search engines, and performance.</li>
+          <li> The title element defines the title for a webpage. This element is required and is extremely important for Search Engine Optimization (SEO).</li>
+          <li> The style element defines the CSS styles associated with a website.</li>
+          <li> The base element defines the base URL for a webpage.</li>
+          <li> The link element connects an external resource to the HTML document.</li>
+          <li> The meta element defines metadata such as the character set, description, keywords, author, and viewport.</li>
+          <li> The script element embeds client-side scripts in the HTML document.</li>
+          <li> The charset element sets our character encoding.</li>
+          <li> The http-equiv element sets an HTTP header for content.</li>
+          <li> The viewport element sets the default view for our webpage.</li>
+          <li> Elements that are nested inside other elements are called child elements.</li>
+          <li> The element that holds all the children is known as the parent element.</li>
+          <li> In semantic HTML elements, the name of the element describes its content and the role it plays on a webpage.</li>
+          <li> When working with visible HTML elements, the content is contained between an opening tag and a closing tag.</li>
+          <li> An element refers to the entire element from opening tag to closing tag, whereas a tag refers only to what appears inside the angle brackets.</li>
+          <li> The h1, h2, h3, h4, h5, and h6 elements represent the level of heading a given text block represents. Headings are exactly what they sound like: larger or more prominent titles and subtitles to organize a page.</li>
+          <li> The p element represents a paragraph or block of text.</li>
+          <li> The ul, ol, and li elements represent unordered lists, ordered lists, and list items.</li>
+          <li> The img element contains information about images that are displayed on the webpage.</li>
+          <li> The src attribute in my Prework Study Guide defines the location of the image.</li>
+          <li> The br element creates a line of empty space, or a line break, between two blocks of content. </li>
+          <li> The a element (which stands for anchor) creates links to the same webpage or other webpages.</li>
+          <li> The href attribute points to the URL for the link.</li>
+          <li> HTML uses the id attribute as a way to identify elements and select them.</li>
         </ul>
       </section>
 
@@ -29,14 +55,35 @@
         <ul>
           <li>A margin indicates how much space we want around the outside of an element.</li>
           <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li> There are three ways to style a webpage using CSS: inline CSS, internal CSS style sheet, and external CSS style sheet.</li>
+          <li> When a developer wants to style an element directly in the HTML file, they use inline CSS. Inline styles apply to a specific HTML tag, using a style attribute with a CSS rule to style a particular page element only.</li>
+          <li> It is also possible to embed an entire stylesheet directly in the HTML file using a style element in the head element. This internal style sheet contains CSS rules for the webpage in the head section of the HTML file.</li>
+          <li> The most common way to style a webpage is by using an external CSS style sheet. This is preferred in most cases because it allows developers to keep all their CSS rules in a separate file, which makes design changes easier.</li>
+          <li> Separation of concerns is a widely used term in web development and refers to separating code into different files based on use. Separation of concerns is based on the idea that each section of code should have its own responsibility.</li>
+          <li> A selector defines the element or attributes to which the rules, or declarations, will apply.</li>
+          <li> Declarations contain two important components: the CSS property we want to apply and the value of the property.</li>
+          <li> Sometimes, we want to apply a rule to all the elements visible on the page. To do that, we use a special wild card symbol, or *.</li>
+          <li> Do Not Repeat Yourself (DRY) is a coding principle that encourages developers to reuse or share pieces of code in order to reduce the number of lines of code that need to be written or maintained. </li>
+          <li> The block value assigns each image to start on a new line.</li>
+          <li> Assigning colors in CSS can be done in many ways, including by semantic references and by its hexadecimal code, or hex #.</li>
+
         </ul>
       </section>
 
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git status: checks what branch we are currently on.</li>
+          <li>git checkout -b branch-name: creates a new branch and switches to it.</li>
+          <li> The git command must precede every Git statement.</li>
+          <li> The checkout command is used to move the working branch to a new branch.</li>
+          <li> The -b flag creates a new branch.</li>
+          <li> It is good practice to name the branches for the feature that will be developed by them to help indicate the purpose of each branch.</li>
+          <li> git add -A: the add command adds modifications in the current working branch to the staging area. The -A flag indicates that we want to add all changes. The staging area informs Git that the changes will be added in the next commit.</li>
+          <li> git commit -m: creates a commit that captures a snapshot of the currently staged changes. Also, this command creates a message that describes what the commit contains.</li>
+          <li> git pull origin main:  Let's take a look at what we just wrote. Once again, we identify a Git command with the git keyword. Then use the pull command to receive a branch's modifications into the local environment. The origin keyword indicates the source of the pull will be in the GitHub repo. The main keyword indicates the branch. In our case, we are receiving a branch called main from the GitHub repository.</li>
+          <li> When using the push command, you can create a new remote branch or add new changes to an existing branch.</li>
+
         </ul>
       </section>
 
@@ -45,6 +92,30 @@
         <ul>
           <li>A variable is a named container that allows us to store data in our code.</li>
           <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li> In JavaScript, to declare a variable, we use the var keyword. After the var keyword, we give the variable a name. This name must be unique because it is how we will reference the information stored in the variable in our code.</li>
+          <li> We use an assignment operator = to assign the specific data that we want stored in our variable.</li>
+          <li> Whereas a .css file is linked within the head element, a .js file is linked within the body element.</li>
+          <li> Control flow is the order in which a computer executes code in a script. In JavaScript, code runs from the first statement at the top of the page, down to the last statement at the bottom of the page.</li>
+          <li> An if statement is a way of introducing decision-making into our code. Just like its name sounds, when using the if statement, code will only execute if the statement meets a condition, or is true.</li>
+          <li> When the computer encounters an if statement in a JavaScript file, it will check to see if the condition that we provide is truthy. If it is, then it will do whatever action we ask it to do in between the curly brackets. If the condition isn’t true or has a value that isn’t truthy, then the computer will ignore whatever is in between the curly brackets and move on.</li>
+          <li> In JavaScript, we can have more than one condition by using else if.</li>
+          <li> The strict equality operator (===) checks to see if two values are equal, and returns a Boolean result true if the values are equal and false if the values are not equal.</li>
+          <li> An array is a single variable that is used to hold a group of data. Arrays are typically used to hold data that is related in some way.</li>
+          <li> To create an array, we declare a variable in the same way that we declared a variable with only one data item. That is, we use var and then give the variable a name. However, instead of assigning the variable to a single value, we assign the variable to a group of values.</li>
+          <li> Arrays are not limited to contain only a single type of data. A single array can store different types of data, such as strings, numbers, and so on.</li>
+          <li> In JavaScript and many other programming languages, arrays are zero-indexed and sequential. This means that the first item in any array has an index of 0, not 1. The indices, or location identifiers, will always be whole numbers that increase by 1 each time.</li>
+          <li> A for loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over.</li>
+          <li> A for loop contains the following three important statements: The first statement determines the starting point for our loop. The second statement is the condition. The final statement is what allows the array to iterate over each item.</li>
+          <li> Commenting out code makes it inactive without deleting it, just in case you need it later. To comment out multiple lines of JavaScript code, put /* before and */ after the block of code.</li>
+          <li> A function is simply a set of instructions that tells the computer how to perform a certain task.</li>
+          <li> A function is different from a for loop or conditional statement because functions do not automatically execute when the JavaScript file is run. Instead, you must call a function by name in order to execute it.</li>
+          <li> To create a function, we use the function keyword.</li>
+          <li> A function's name is followed by parentheses (). The code to be executed is written inside the curly brackets {}.</li>
+          <li> It is common practice to indent the for loop code below the function name, within the curly brackets, to add visual structure to your code.</li>
+          <li> When we declare a function in our JavaScript code, we are creating a reusable block of code that performs a specific task. However, declaring a function does not mean that the code will automatically execute. We need to call the function in the code at the spot we want it to execute.</li>
+          <li> To call a function, we use the name of the function in our JavaScript file where we want the code to execute.</li>
+          <li> Math.floor() and Math.random() are both properties of JavaScript's built-in Math object that can be used together to generate a random number.</li>
+          
         </ul>
       </section>
     </main>
