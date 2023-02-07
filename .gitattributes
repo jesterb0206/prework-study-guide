@@ -3,3 +3,4 @@
 *.md linguist-generated=false
 *.md linguist-documentation=false
 *.md linguist-detectable=true
+git check-attr -a README.md
